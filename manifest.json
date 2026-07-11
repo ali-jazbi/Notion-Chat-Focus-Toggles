@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Notion Chat Focus Toggles",
+  "version": "1.1.2",
+  "description": "Toggle visibility of code blocks, your prompts, and non-code explanations in Notion AI chat, limited to a chosen percentage of the conversation.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.notion.so/*",
+        "https://notion.so/*",
+        "https://*.notion.site/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
