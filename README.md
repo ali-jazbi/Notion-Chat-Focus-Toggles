@@ -28,11 +28,12 @@
 
 ## نصب
 
-۱. فایل `notion-focus-toggles.zip` را دانلود و در یک پوشه‌ی جدید استخراج کنید.
-۲. در کروم به آدرس `chrome://extensions` بروید.
-۳. گزینه‌ی **Developer mode** (بالا-راست صفحه) را روشن کنید.
-۴. روی **Load unpacked** کلیک کنید و پوشه‌ای که استخراج کردید را انتخاب کنید.
-۵. مطمئن شوید که «Notion Chat Focus Toggles» در لیست اکستنشن‌ها ظاهر شده است.
+۱. در صفحه‌ی این ریپو در گیت‌هاب، روی دکمه‌ی سبز **Code** بزنید → **Download ZIP** (یا با `git clone` ریپو رو بگیرید).
+۲. اگه لازم بود، فایل زیپ دانلودشده رو استخراج کنید.
+۳. در کروم به آدرس `chrome://extensions` بروید.
+۴. گزینه‌ی **Developer mode** (بالا-راست صفحه) را روشن کنید.
+۵. روی **Load unpacked** کلیک کنید و همون پوشه‌ای که `manifest.json` توشه (ریشه‌ی ریپو) رو انتخاب کنید.
+۶. مطمئن شوید «Notion Chat Focus Toggles» در لیست اکستنشن‌ها ظاهر شده است.
 
 ## نحوه‌ی استفاده
 
@@ -82,11 +83,12 @@ actual content.
 
 ## Install
 
-1. Download and extract the `notion-focus-toggles.zip` file into its own folder.
-2. Open `chrome://extensions` in Chrome.
-3. Turn on **Developer mode** (top-right toggle).
-4. Click **Load unpacked** and select the extracted folder.
-5. Confirm "Notion Chat Focus Toggles" now appears in your extensions list.
+1. On this GitHub repo page, click the green **Code** button → **Download ZIP** (or `git clone` the repo).
+2. Extract the downloaded ZIP if needed.
+3. Open `chrome://extensions` in Chrome.
+4. Turn on **Developer mode** (top-right toggle).
+5. Click **Load unpacked** and select the folder that contains `manifest.json` (the repo's root folder).
+6. Confirm "Notion Chat Focus Toggles" now appears in your extensions list.
 
 ## Usage
 
